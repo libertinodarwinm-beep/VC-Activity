@@ -1,0 +1,39 @@
+
+/* Page background */
+body{
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: Arial, sans-serif;
+    margin:0;
+}
+
+/* Card container */
+.custom-box{
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Title style */
+.custom-box h1{
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+/* Custom button */
+.custom-btn{
+    padding:10px 25px;
+    font-size:18px;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+.custom-btn:hover{
+    transform:scale(1.1);
+}
+
