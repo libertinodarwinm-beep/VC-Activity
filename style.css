@@ -1,39 +1,45 @@
-
-/* Page background */
-body{
-    background: linear-gradient(135deg, #4facfe, #00f2fe);
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+body {
     font-family: Arial, sans-serif;
-    margin:0;
+    background-color: #f5f5f5;
+    margin: 0;
 }
 
-/* Card container */
-.custom-box{
-    background:white;
-    padding:40px;
-    border-radius:15px;
-    text-align:center;
-    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+header {
+    background-color: #ff7043;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-/* Title style */
-.custom-box h1{
-    font-weight:700;
-    margin-bottom:20px;
+.food-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
-/* Custom button */
-.custom-btn{
-    padding:10px 25px;
-    font-size:18px;
-    border-radius:30px;
-    transition:0.3s;
+.food-card {
+    background: white;
+    width: 250px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 15px;
 }
 
-.custom-btn:hover{
-    transform:scale(1.1);
+.food-card img {
+    width: 100%;
+    border-radius: 10px;
 }
 
+.food-card h2 {
+    color: #ff7043;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
